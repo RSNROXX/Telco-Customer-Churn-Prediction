@@ -29,8 +29,8 @@ Unlike standard prediction models, this project focuses on **interpretability** 
 ## ⚙️ Project Workflow
 1. Data Generation: Simulating a realistic Telco dataset with missing values and noise.
 2. Preprocessing: * Imputing missing TotalCharges.
- - One-Hot Encoding for categorical variables (e.g., Internet Service, Payment Method).
- - Standard Scaling for numerical features.
+    - One-Hot Encoding for categorical variables (e.g., Internet Service, Payment Method).
+    - Standard Scaling for numerical features.
 3. EDA & Baseline: Establishing a performance benchmark.
 4. Model Training: Training a Full Logistic Regression model with balanced weights.
 5. Feature Selection: Reducing dimensionality using RFE.
